@@ -4,7 +4,7 @@
              x:Class="MJAppMauiBurger.MainPage">
 
     <StackLayout>
-        <Label Text="Ejemplo de app y API en .NET MAUI!"
+        <Label Text="Ejemplo de app y API en .NET MAUI! Mateo Jaramillo"
  HorizontalOptions="Center"
  VerticalOptions="CenterAndExpand" />
         <Button Text="Leer hamburguesas!"
