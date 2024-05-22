@@ -3,6 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MJAppMauiBurger.MainPage">
 
-   
+    <StackLayout>
+        <Label Text="Ejemplo de app y API en .NET MAUI!"
+ HorizontalOptions="Center"
+ VerticalOptions="CenterAndExpand" />
+        <Button Text="Leer hamburguesas!"
+ Clicked="Button_Clicked"
+ HorizontalOptions="Center" />
+        <ListView x:Name="listView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding name}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 
 </ContentPage>
