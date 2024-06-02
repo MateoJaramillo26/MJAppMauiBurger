@@ -63,4 +63,16 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="MJAppShell.xaml.cs">
+	    <DependentUpon>MJAppShell.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MJMainPage.xaml.cs">
+	    <DependentUpon>MJMainPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MJApp.xaml.cs">
+	    <DependentUpon>MJApp.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
 </Project>

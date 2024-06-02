@@ -2,7 +2,7 @@
 
 namespace MJAppMauiBurger
 {
-    public static class MauiProgram
+    public static class MJMauiProgram
     {
         public static MauiApp CreateMauiApp()
         {
